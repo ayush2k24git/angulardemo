@@ -24,7 +24,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      # 4. Build the Angular application
+      # 4. Build the Angular application for the demo
       - name: Build Angular App
         run: npm run build
 
